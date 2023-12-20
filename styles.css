@@ -101,17 +101,19 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
-    color: var(--color4);
+    color: var(--color1);
     margin: 0; /* Asegúrate de que no haya márgenes no deseados */
 }
 
 .card-container {
-    background-color: #c2caeb; /* Fondo gris claro para el contenedor */
+    background-color: #1e2326; /* Fondo gris claro para el contenedor */
     opacity: 0.9;
     padding: 20px; /* Espaciado interno para el contenedor */
     border-radius: 10px; /* Bordes redondeados para un aspecto de tarjeta */
-    width: 90%;
+    width: 80%;
     margin: auto;
+    margin-top: 10px;
+    height: 20%;
 }
 
 .home-section h1 {
@@ -146,5 +148,21 @@ body {
     width: 250px; /* Ajusta el tamaño según tus preferencias */
     border-radius: 50%;
     margin-bottom: 20px;
+}
+.redes a{
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    margin: 40px 5px;
+    font-size: 20px;
+    transition: .3;
+}
+.redes a:hover{
+    background-color: #1CB698;
 }
 
