@@ -28,10 +28,18 @@ body {
     justify-content: space-between;
     align-items: center;
     list-style: none;
-    position: relative;
+    position: sticky;
+    top: 0;
     background-color: var(--color2);
     padding: 12px 20px;
-    margin-bottom: -10px;
+    z-index: 1000;
+}
+
+.fixed-menu {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
 }
 .logo img {width: 40px;}
 .menu {display: flex;}
