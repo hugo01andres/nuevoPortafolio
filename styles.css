@@ -233,17 +233,70 @@ body {
 }
 /*END SOBRE MI*/
 /*PORTAFOLIO*/
+
 .proyectos {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Dos proyectos por fila */
-    gap: 20px; /* Espacio entre los proyectos */
-    padding: 20px; /* Espacio interno de la sección */
-  }
-  
-  .proyecto {
-    border: 1px solid #ddd; /* Borde del proyecto */
-    padding: 15px; /* Espacio interno del proyecto */
-  }
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 100%;
+    background-color: black; /* Añade el color de fondo negro */
+    padding: 20px; /* Añade un relleno para separar los proyectos del borde */
+    margin: 0;
+}
+
+.proyecto {
+    width: 25%; /* Ajusta el ancho según tus necesidades */
+    margin: 30px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-color: #33d0a4;
+    opacity: 2.0;
+}
+
+.proyecto img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.proyecto h3{
+    color: #ddd;
+}
+.proyecto p{
+    color: #ddd;
+}
+.boton-demo,
+.boton-code {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 16px;
+    text-decoration: none;
+    color: white;
+    background-color: #1CB698;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.boton-demo:hover,
+.boton-code:hover {
+    background-color: #166e56; /* Color de fondo al pasar el ratón */
+}
+
+.proyecto .botones-proyecto {
+    margin-top: 15px;
+}
+
+.proyecto .botones-proyecto a {
+    margin-right: 10px;
+}
+
+
+
   
   
   
