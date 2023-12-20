@@ -233,16 +233,27 @@ body {
 }
 /*END SOBRE MI*/
 /*PORTAFOLIO*/
-
+#titulo-proyectos{
+    text-align: center;
+    color: #fff;
+    font-size: 48px;
+    font-family: 'Righteous';
+    padding: 20px 0;
+}
+.seccion-proyectos{
+    background-color: black; /* Añade el color de fondo negro */
+    padding: 20px; /* Añade un relleno para separar los proyectos del borde */
+    margin: 0;
+    text-align: center;
+}
 .proyectos {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     max-width: 100%;
-    background-color: black; /* Añade el color de fondo negro */
-    padding: 20px; /* Añade un relleno para separar los proyectos del borde */
-    margin: 0;
+
 }
+
 
 .proyecto {
     width: 25%; /* Ajusta el ancho según tus necesidades */
