@@ -288,10 +288,12 @@ body {
 }
 
 .proyecto h3{
-    color: #ddd;
+    color: #000000;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .proyecto p{
-    color: #ddd;
+    color: #666666;
 }
 .boton-demo,
 .boton-code {
@@ -300,7 +302,7 @@ body {
     padding: 8px 16px;
     text-decoration: none;
     color: white;
-    background-color: #178582;
+    background-color: #b0ad93;
     border: none;
     border-radius: 5px;
     cursor: pointer;
