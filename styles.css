@@ -337,4 +337,39 @@ video {
     /*END PORTAFOLIO*/  
   
   
+    /*Responsividad*/
+    /* Media query para dispositivos móviles */
+@media screen and (max-width: 768px) {
+    .proyecto {
+        width: 100%; /* Ajusta el ancho al 100% para dispositivos móviles */
+    }
+    .proyectos {
+        margin: 0;
+    }
+    .proyectos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .proyecto {
+        width: 100%;
+        margin: 10px 0;
+    }
+    .proyecto img {
+        width: 100%;
+    }
+    .boton-demo,
+    .boton-code {
+        margin-top: 10px;
+    }
+    .boton-demo,
+    .boton-code {
+        display: block;
+        width: 100%;
+    }
+    .boton-demo {
+        margin-bottom: 10px;
+    }
+}
+  
 
